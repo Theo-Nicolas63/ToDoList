@@ -1,0 +1,77 @@
+#navbarNav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+#navbarNav a:hover {
+  background-color: none!important;
+  border-bottom: 3px solid rgb(220, 53, 69);
+}
+
+#barretache {
+  width: 300px;
+}
+
+.addBtn {
+  padding: 10px;
+  width: 25%;
+  background: #007FFF;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 5px;
+
+}
+
+.addBtn:hover {
+  background-color: #0131B4;
+}
+
+input {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 75%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+}
+
+#grid-card {
+  margin-top: 85px;
+}
+#liste {
+  width: 350px;
+}
+
+#supprListe {
+  width: 40px;
+  height: 40px;
+}
+
+#reverse {
+  flex-flow: row-reverse;
+}
+
+#btn-Tache {
+  width: 350px;
+}
+
+.jumbotron {
+  background: transparent;
+}
+
+#fond{
+  background-image: url("../../media/bleu.jpg");
+  background-repeat: no-repeat;
+  width: 5000px;
+}
